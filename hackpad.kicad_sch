@@ -2002,6 +2002,12 @@
 		(uuid "e9dba93f-6f98-41fb-9c57-13ce48a25582")
 	)
 	(junction
+		(at 60.96 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03d6ea6c-5d30-4273-825f-f1a91d4c3bed")
+	)
+	(junction
 		(at 152.4 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2038,12 +2044,6 @@
 		(uuid "61c31c9c-053f-47b1-8e6f-7be7d0b26d23")
 	)
 	(junction
-		(at 58.42 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97d608cc-e030-4b23-9b89-0b454c707106")
-	)
-	(junction
 		(at 196.85 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2062,16 +2062,16 @@
 		(uuid "e24ed4ff-bb4b-46cf-84cb-92c500778daa")
 	)
 	(junction
-		(at 58.42 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6b17181-afb1-432d-a632-0e5ccccd87a9")
-	)
-	(junction
 		(at 201.93 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e86b44ca-c5f7-4c72-a25d-c31806ab6808")
+	)
+	(junction
+		(at 60.96 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1114c4c-8172-4887-bc08-58cc3d8767e2")
 	)
 	(junction
 		(at 176.53 58.42)
@@ -2207,16 +2207,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 130.81) (xy 74.93 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4549d044-31e6-4df8-ba61-49e395c42172")
-	)
-	(wire
-		(pts
 			(xy 176.53 87.63) (xy 201.93 87.63)
 		)
 		(stroke
@@ -2227,7 +2217,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 115.57) (xy 58.42 115.57)
+			(xy 48.26 115.57) (xy 60.96 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2304,16 +2294,6 @@
 			(type default)
 		)
 		(uuid "5ee4ec73-84dd-4f50-995c-7722c791fca2")
-	)
-	(wire
-		(pts
-			(xy 58.42 115.57) (xy 66.04 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a5240a2-c351-4f20-8ef5-0b4ecc38a1ae")
 	)
 	(wire
 		(pts
@@ -2427,7 +2407,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 123.19) (xy 67.31 123.19)
+			(xy 60.96 115.57) (xy 66.04 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a184acfd-b027-4dcf-b650-3df06c40e81c")
+	)
+	(wire
+		(pts
+			(xy 68.58 123.19) (xy 67.31 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2447,6 +2437,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 130.81) (xy 74.93 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab91ba7c-7630-43cc-972b-24256a3781a7")
+	)
+	(wire
+		(pts
 			(xy 48.26 130.81) (xy 48.26 135.89)
 		)
 		(stroke
@@ -2457,7 +2457,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 130.81) (xy 58.42 130.81)
+			(xy 48.26 130.81) (xy 60.96 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2487,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 123.19) (xy 50.8 123.19)
+			(xy 49.53 123.19) (xy 53.34 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3243,7 +3243,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812MINI-E")
-		(at 58.42 123.19 0)
+		(at 60.96 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3254,7 +3254,7 @@
 		(fields_autoplaced yes)
 		(uuid "07701020-1258-4b48-b7bb-9bf767dc804d")
 		(property "Reference" "D10"
-			(at 72.39 116.7698 0)
+			(at 74.93 116.7698 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3264,7 +3264,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 72.39 119.3098 0)
+			(at 74.93 119.3098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3274,7 +3274,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 59.69 130.81 0)
+			(at 62.23 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3286,7 +3286,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
-			(at 60.96 132.715 0)
+			(at 63.5 132.715 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3298,7 +3298,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 58.42 123.19 0)
+			(at 60.96 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
