@@ -2,7 +2,7 @@ Based on HackClub's MacroPad Guide.
 https://hackpad.hackclub.com/guide
 
 ----------------------------------
-Structure:- 
+File Structure:- 
 
 --3D Model
 
@@ -35,12 +35,27 @@ Case without Lid:-
 
 BOM:-
 
--
+-1x XIAO RP2040
 
--
+-1x EC11 Rotary Encoder
 
--
+-1x 0.91" 128x32 OLED Display
 
--
+-4x WS2812B LEDs
 
--
+-7x 1N4148 DO-35 Diodes
+
+-6x MX-style Switches
+
+-6x DSA Keycaps
+
+-6x M3x5x4 Heatset inserts
+
+-4x M3x16mm SHCS Bolts
+
+-2x M3x12mm SHCS Bolts
+
+-1x Case (2 printed parts)
+----------------------------------
+Extra Stuff:-
+i forgot to log my time.(is this the end of world? prolly not)
