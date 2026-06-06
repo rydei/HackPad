@@ -2,7 +2,7 @@ Based on HackClub's MacroPad Guide.
 https://hackpad.hackclub.com/guide
 
 ----------------------------------
-Structure:-
+Structure:- 
 -3D Model
 
   -HackPad with PCB.3mf
