@@ -1,0 +1,210 @@
+** Drc report for hackpad.kicad_pcb **
+** Created on 2026-06-09T23:38:54 **
+** Report includes: Errors, Warnings **
+
+** Found 48 DRC violations **
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1950 mm)
+    Local override; error
+    @(109.8500 mm, 63.8900 mm): Track [Column 3] on B.Cu, length 35.4100 mm
+    @(110.7250 mm, 65.0350 mm): PTH pad 4 [SCL] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1788 mm)
+    Local override; error
+    @(110.7250 mm, 59.9550 mm): PTH pad 2 [VCC] of J2
+    @(108.9837 mm, 59.8100 mm): Track [Column 1] on F.Cu, length 2.1779 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1950 mm)
+    Local override; error
+    @(110.7250 mm, 62.4950 mm): PTH pad 3 [SDA] of J2
+    @(110.5237 mm, 61.3500 mm): Track [Column 1] on F.Cu, length 0.9527 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)
+    Rule: board setup constraints edge; error
+    @(129.0750 mm, 53.7250 mm): Segment of D10 on Edge.Cuts
+    @(130.1000 mm, 54.4750 mm): Pad 1 [GND] of D10 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)
+    Rule: board setup constraints edge; error
+    @(129.0750 mm, 53.7250 mm): Segment of D10 on Edge.Cuts
+    @(130.1000 mm, 52.9750 mm): Pad 2 [Net-(D10-DIN)] of D10 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)
+    Rule: board setup constraints edge; error
+    @(125.6750 mm, 53.7250 mm): Segment of D10 on Edge.Cuts
+    @(124.6500 mm, 52.9750 mm): Pad 3 [VCC] of D10 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)
+    Rule: board setup constraints edge; error
+    @(125.6750 mm, 53.7250 mm): Segment of D10 on Edge.Cuts
+    @(124.6500 mm, 54.4750 mm): Pad 4 [Net-(D10-DOUT)] of D10 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)
+    Rule: board setup constraints edge; error
+    @(164.7000 mm, 53.9750 mm): Segment of D9 on Edge.Cuts
+    @(165.7250 mm, 54.7250 mm): Pad 1 [GND] of D9 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)
+    Rule: board setup constraints edge; error
+    @(164.7000 mm, 53.9750 mm): Segment of D9 on Edge.Cuts
+    @(165.7250 mm, 53.2250 mm): Pad 2 [Net-(D8-DOUT)] of D9 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)
+    Rule: board setup constraints edge; error
+    @(161.3000 mm, 53.9750 mm): Segment of D9 on Edge.Cuts
+    @(160.2750 mm, 53.2250 mm): Pad 3 [VCC] of D9 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)
+    Rule: board setup constraints edge; error
+    @(161.3000 mm, 53.9750 mm): Segment of D9 on Edge.Cuts
+    @(160.2750 mm, 54.7250 mm): Pad 4 [Net-(D10-DIN)] of D9 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)
+    Rule: board setup constraints edge; error
+    @(85.8000 mm, 78.4750 mm): Segment of D2 on Edge.Cuts
+    @(86.5500 mm, 77.4500 mm): Pad 1 [GND] of D2 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)
+    Rule: board setup constraints edge; error
+    @(85.8000 mm, 78.4750 mm): Segment of D2 on Edge.Cuts
+    @(85.0500 mm, 77.4500 mm): Pad 2 [Net-(D10-DOUT)] of D2 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)
+    Rule: board setup constraints edge; error
+    @(85.8000 mm, 81.8750 mm): Segment of D2 on Edge.Cuts
+    @(85.0500 mm, 82.9000 mm): Pad 3 [VCC] of D2 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3154 mm)
+    Rule: board setup constraints edge; error
+    @(86.5004 mm, 82.1747 mm): Arc of D2 on Edge.Cuts
+    @(86.5500 mm, 82.9000 mm): Pad 4 [unconnected-(D2-DOUT-Pad4)] of D2 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2467 mm)
+    Rule: board setup constraints edge; error
+    @(87.0172 mm, 105.9078 mm): Arc of D8 on Edge.Cuts
+    @(86.6500 mm, 104.5000 mm): Pad 1 [GND] of D8 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)
+    Rule: board setup constraints edge; error
+    @(85.9000 mm, 105.5250 mm): Segment of D8 on Edge.Cuts
+    @(85.1500 mm, 104.5000 mm): Pad 2 [LEDPIN] of D8 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2467 mm)
+    Rule: board setup constraints edge; error
+    @(84.7828 mm, 108.5422 mm): Arc of D8 on Edge.Cuts
+    @(85.1500 mm, 109.9500 mm): Pad 3 [VCC] of D8 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2467 mm)
+    Rule: board setup constraints edge; error
+    @(87.0172 mm, 108.5422 mm): Arc of D8 on Edge.Cuts
+    @(86.6500 mm, 109.9500 mm): Pad 4 [Net-(D8-DOUT)] of D8 on B.Cu
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(82.8000 mm, 51.4750 mm): Rectangle on Edge.Cuts
+    @(127.3750 mm, 51.1250 mm): Reference field of D10
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(82.8000 mm, 51.4750 mm): Rectangle on Edge.Cuts
+    @(163.0000 mm, 51.3750 mm): Reference field of D9
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(82.8000 mm, 51.4750 mm): Rectangle on Edge.Cuts
+    @(83.2000 mm, 80.1750 mm): Reference field of D2
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(82.8000 mm, 51.4750 mm): Rectangle on Edge.Cuts
+    @(83.3000 mm, 107.2250 mm): Reference field of D8
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(100.8800 mm, 86.6300 mm): Rectangle of D1 on F.Silkscreen
+    @(103.0000 mm, 89.1800 mm): Reference field of D3
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(100.8800 mm, 90.1800 mm): Rectangle of D3 on F.Silkscreen
+    @(103.0000 mm, 92.7300 mm): Reference field of D5
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(103.0000 mm, 103.3800 mm): Reference field of D22
+    @(101.7200 mm, 100.8300 mm): Segment of D7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(103.0000 mm, 103.3800 mm): Reference field of D22
+    @(100.8800 mm, 100.8300 mm): Rectangle of D7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.7200 mm, 104.3800 mm): Segment of D22 on F.Silkscreen
+    @(103.0000 mm, 106.9300 mm): Reference field of D99
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(103.0000 mm, 106.9300 mm): Reference field of D99
+    @(100.8800 mm, 104.3800 mm): Rectangle of D22 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(100.8800 mm, 93.7300 mm): Rectangle of D5 on F.Silkscreen
+    @(103.0000 mm, 96.2800 mm): Reference field of D6
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(100.8800 mm, 97.2800 mm): Rectangle of D6 on F.Silkscreen
+    @(103.0000 mm, 99.8300 mm): Reference field of D7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(103.9000 mm, 72.0000 mm): Arc of U1 on F.Silkscreen
+    @(104.6250 mm, 71.1200 mm): PTH pad 8 [EC11B] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(88.1000 mm, 55.0000 mm): Segment of U1 on F.Silkscreen
+    @(89.3750 mm, 55.8800 mm): PTH pad 1 [Column 1] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(88.1000 mm, 55.0000 mm): Segment of U1 on F.Silkscreen
+    @(89.3750 mm, 58.4200 mm): PTH pad 2 [Column 2] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(88.1000 mm, 55.0000 mm): Segment of U1 on F.Silkscreen
+    @(89.3750 mm, 60.9600 mm): PTH pad 3 [Column 3] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(88.1000 mm, 55.0000 mm): Segment of U1 on F.Silkscreen
+    @(89.3750 mm, 63.5000 mm): PTH pad 4 [Row 2] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(88.1000 mm, 55.0000 mm): Segment of U1 on F.Silkscreen
+    @(89.3750 mm, 66.0400 mm): PTH pad 5 [SDA] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(88.1000 mm, 55.0000 mm): Segment of U1 on F.Silkscreen
+    @(89.3750 mm, 68.5800 mm): PTH pad 6 [SCL] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(88.1000 mm, 55.0000 mm): Segment of U1 on F.Silkscreen
+    @(89.3750 mm, 71.1200 mm): PTH pad 7 [Row 1] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(90.1449 mm, 71.9551 mm): Arc of U1 on F.Silkscreen
+    @(89.3750 mm, 71.1200 mm): PTH pad 7 [Row 1] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(105.9000 mm, 72.0000 mm): Segment of U1 on F.Silkscreen
+    @(104.6250 mm, 68.5800 mm): PTH pad 9 [EC11A] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(105.9000 mm, 72.0000 mm): Segment of U1 on F.Silkscreen
+    @(104.6250 mm, 66.0400 mm): PTH pad 10 [EC11SWB] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(105.9000 mm, 72.0000 mm): Segment of U1 on F.Silkscreen
+    @(104.6250 mm, 60.9600 mm): PTH pad 12 [unconnected-(U1-3V3-Pad12)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(105.9000 mm, 72.0000 mm): Segment of U1 on F.Silkscreen
+    @(104.6250 mm, 58.4200 mm): PTH pad 13 [GND] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(105.9000 mm, 72.0000 mm): Segment of U1 on F.Silkscreen
+    @(104.6250 mm, 55.8800 mm): PTH pad 14 [VCC] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(105.9000 mm, 72.0000 mm): Segment of U1 on F.Silkscreen
+    @(104.6250 mm, 63.5000 mm): PTH pad 11 [LEDPIN] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(105.9000 mm, 72.0000 mm): Segment of U1 on F.Silkscreen
+    @(104.6250 mm, 71.1200 mm): PTH pad 8 [EC11B] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(103.8554 mm, 55.0446 mm): Arc of U1 on F.Silkscreen
+    @(104.6250 mm, 55.8800 mm): PTH pad 14 [VCC] of U1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
